@@ -1,0 +1,59 @@
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.qr-card {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 388px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .qr-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .qr-card .title {
+    font-size: 5vw;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    text-align: center;
+    line-height: 1.21;
+    color: #000000;
+    margin-top: 34px;
+    margin-bottom: 22px;
+  }
+
+  .qr-card .description {
+    font-size: 4vw;
+    font-weight: 500;
+    letter-spacing: -0.54px;
+    text-align: center;
+    line-height: 1.22;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 34px;
+  }
+
+
+  @media (min-width: 520px) { 
+
+    .qr-card .title {
+        font-size: 25px;
+        
+      }
+    
+      .qr-card .description {
+        font-size: 20px;
+        
+      }
+    
+   }
